@@ -17,7 +17,6 @@ BuildRequires:  perl-devel
 BuildRequires:  perl(Clone)
 BuildRequires:  perl(Test::Exception)
 BuildArch:      noarch
-BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 Data::Hierarchy provides a simple interface for manipulating 
