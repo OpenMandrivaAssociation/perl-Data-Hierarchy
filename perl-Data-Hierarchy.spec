@@ -1,7 +1,7 @@
 %define module  Data-Hierarchy
 %define name    perl-%{module}
 %define version 0.34
-%define release %mkrel 2
+%define release %mkrel 4
 
 Name:           %{name}
 Version:        %{version}
