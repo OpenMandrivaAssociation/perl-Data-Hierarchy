@@ -2,14 +2,14 @@
 %define upstream_version 0.34
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Version:	%{upstream_version}
+Release:	6
 
 Summary:	Perl module to handle data in a hierarchical structure
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Data/%{upstream_name}-%{upstream_version}.tar.bz2
+Url:		https://metacpan.org/dist/Data-Hierarchy
+Source0:	https://cpan.metacpan.org/authors/id/C/CL/CLKAO/Data-Hierarchy-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
